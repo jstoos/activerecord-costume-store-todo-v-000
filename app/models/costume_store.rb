@@ -1,1 +1,6 @@
-# Create your CostumeStore class here
+ class CostumeStore < ActiveRecord::Base
+
+   def create_table
+   end
+   
+ end
