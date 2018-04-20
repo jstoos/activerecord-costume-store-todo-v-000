@@ -1,7 +1,7 @@
-class CostumeStore < ActiveRecord::Migration[4.2]
+class CostumeStores < ActiveRecord::Migration[4.2]
 
-  def change 
-    create_table do |t|
+  def change
+    create_table costume_stores do |t|
       t.string :name
       t.string :location
       t.string :costume_inventory
